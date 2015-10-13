@@ -5,58 +5,176 @@
   <title>Project 1</title>
 
 
-<script type="text/javascript" src="jquery.js">
+	<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+
+	<script src="http://code.jquery.com/ui/1.8.21/jquery-ui.min.js"></script>
+
+	<script type= "text/javascript" src= "js/gamescript.js"></script>
+
+	<link rel= "stylesheet" type= "text/css" href= "css/style.css">
+
+
+<script>
+//   $(function() {
+//     $( "#draggable" ).draggable();
+//   });
 </script>
-    <script type="text/javascript" src="jquery-ui.js">
-</script>
-    <script type="text/javascript" src="navigator.js">
-</script>
-    <script type="text/javascript" src="jquery.ui.touch-punch.js">
-</script>
 
-<link rel="stylesheet" type="text/css" href="css/style.css">
-  </head>
+</head>
 
-<body>
+  <body>
 
-<body onload="drags()">
-    <div id="container">
-        <div id="topbar">
-            <div id="inside">
-                <div id="droppable"></div>
+  <div class= "row">
+  <div class= "span 9">
+  <p>
+  	Warehouse Game
+</div>
+  <div class= "span3">
 
-                <div class="drop" id="item1"></div>
+  <h2>Inventory</h2>
 
-                <div class="drop" id="item2"></div>
+<!--   //inventory draggable -->
 
-                <div class="drop" id="item3"></div>
+  	
+  	<!-- <div id= "draggable" class= "ui-widget-content">
 
-                <div class="drop" id="item4"></div>
 
-                <div class="drop" id="item5"></div>
 
-                <div class="drop" id="item6"></div>
-            </div>
 
-            <div class="inventory" id="slot1"></div>
+  	<div class= "drop" id= "item1">
+                	item1
+                </div>
 
-            <div class="inventory" id="slot2"></div>
+                <div class= "drop" id= "item2">
+                	item2
+                </div>
 
-            <div class="inventory" id="slot3"></div>
+                <div class= "drop" id= "item3">
+                	item3
+                </div>
 
-            <div class="inventory" id="slot4"></div>
+                <div class= "drop" id= "item4">
+                	item4
+                </div>
 
-            <div class="inventory" id="slot5"></div>
+                <div class= "drop" id= "item5">
+                	item5
+                </div>
 
-            <div class="inventory" id="slot6"></div>
-
- <div id="selector" class="off">
-                <div id="selectortext" class="textbox">
-                    Inventory 
+                <div class= "drop" id= "item6">
+                	item6
 
                 </div>
-    
-    
+ -->
+
+  </div>
+  <div class="span6">
+<p>
+	<img alt="" src="images/gp-17" style="width: 800px" id="imgClickAndChange" onclick="changeImage()"  /> 
+</p>
+
+  </div>
+</div>
+
+
+
+<!-- // Inventory - notes and coding tweaks -->
+<!-- <div id= "inventory">
+<div id= "draggable" class= "ui-widget-content"> -->
+    <!-- <div id="inventory"> -->
+
+                <!-- <div class= "drop" id= "item1">
+                	item1
+                </div>
+
+                <div class= "drop" id= "item2">
+                	item2
+                </div>
+
+                <div class= "drop" id= "item3">
+                	item3
+                </div>
+
+                <div class= "drop" id= "item4">
+                	item4
+                </div>
+
+                <div class= "drop" id= "item5">
+                	item5
+                </div>
+
+                <div class= "drop" id= "item6">
+                	item6
+
+                </div>
+            </div> -->
+
+            <!-- //inventory "belt"
+
+            <div class= "inventory" id= "slot1"></div>
+
+            <div class= "inventory" id= "slot2"></div>
+
+            <div class= "inventory" id= "slot3"></div>
+
+            <div class= "inventory" id= "slot4"></div>
+
+            <div class= "inventory" id= "slot5"></div>
+
+            <div class= "inventory" id= "slot6"></div> -->
+<!-- 
+ 		<div id= "selector" class= "off">
+
+                <div id= "selectortext" class= "textbox"> -->
+                    <!-- //Inventory -->
+
+                </div>
+
+            </div>
+
+</div>
+
+   
+
+
+<map name= "building1">
+  <area shape= "rect" coords= "100,100,100,100" alt= "" href= "www.google.com">
+</map>
+
+
+
+
+
+<!-- //**extra stuff**// -->
+
+<!-- //camera icon -->
+<!-- <a href="glyphicon glyphicon-camera">
+
+<!-- // responsive test -->
+<!-- // (function() {
+
+// var img = document.getElementById('container').firstChild;
+// img.onload = function() {
+//     if(img.height > img.width) {
+//         img.height = '100%'
+//         img.width = 'auto';
+//     }
+// };
+
+// }());
+ -->
+
+ <!-- 
+Input name with a toggle to greet player name. -->
+<!--  <div class="container2">
+    <label for="myInput">Click in input</label>
+    <input type="text" class="js-input" id="myInput" />
+    <div class="toggleBox">
+        Some information
+    </div>
+</div> -->
+
+
 
     </body>
 </html>
