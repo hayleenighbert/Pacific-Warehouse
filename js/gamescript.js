@@ -2,8 +2,6 @@ document.addEventListener('DOMContentLoaded', function() {
 	console.log('Voila!')
 });
 
-};
-
 
 //jquery select cursor
 // $( ".selector" ).draggable({
@@ -46,6 +44,8 @@ $(".bg").interactive_bg({
    contain: true,
    wrapContent: false
 
+    });
+});
 
 $(document).ready(function(){
 
@@ -57,9 +57,8 @@ $(document).ready(function(){
       $(".bg > .ibg-bg").css({
         width: $(window).outerWidth(),
         height: $(window).outerHeight()
-
 });
-
+  });
 
 
 
