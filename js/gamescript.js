@@ -6,76 +6,78 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 //jquery select cursor
-$( ".selector" ).draggable({
-  cursorAt: { left: 5 }
-  cursor: "crosshair"s
-});
+// $( ".selector" ).draggable({
+//   cursorAt: { left: 5 }
+//   cursor: "crosshair"s
+// });
 
-// Getter
-var cursorAt = $( ".selector" ).draggable( "option", "cursorAt", "cursor" );
+// // Getter
+// var cursorAt = $( ".selector" ).draggable( "option", "cursorAt", "cursor" );
  
-// Setter
-$( ".selector" ).draggable( "option", "cursorAt", "crosshair", { left: 5 } );
-
-});
-
-$(document).ready(function () {
-    addElements();
-    $(function () {
-        $("#list1, #list2").sortable({
-            connectWith: ".lists",
-            cursor: "move"
-        }).disableSelection();
-    });
-})
-
-function addElements() {
-    $("#list1").empty().append(
-        "<li id='item1' class='list1Items'>Item 1</li>" +
-        "<li id='item2' class='list1Items'>Item 2</li>" +
-        "<li id='item3' class='list1Items'>Item 3</li>");
-	});
-})
-
-
-
-function changeImage() {
-
-        if (document.getElementById("imgClickAndChange").src == "images/gp-17") 
-        {
-            document.getElementById("imgClickAndChange").src = "images/gp-27";
-        }
-        else 
-        {
-            document.getElementById("imgClickAndChange").src = "";
-        }
-    }
-
-
-  });
-
-// $(".bg").interactive_bg({
-//    strength: 25,
-//    scale: 1.05,
-//    animationSpeed: "100ms",
-//    contain: true,
-//    wrapContent: false
-//  });
-
-//   $(document).ready(function(){
-
-//     $(".bg").interactive_bg(); // function call
-//     });
-
-//   // change background size on window resize
-//   $(window).resize(function() {
-//       $(".bg > .ibg-bg").css({
-//         width: $(window).outerWidth(),
-//         height: $(window).outerHeight()
-//       })
-//     })
+// // Setter
+// $( ".selector" ).draggable( "option", "cursorAt", "crosshair", { left: 5 } );
 
 // });
+
+// $(document).ready(function () {
+//     addElements();
+//     $(function () {
+//         $("#list1, #list2").sortable({
+//             connectWith: ".lists",
+//             cursor: "move"
+//         }).disableSelection();
+//     });
+// })
+
+// function addElements() {
+//     $("#list1").empty().append(
+//         "<li id='item1' class='list1Items'>Item 1</li>" +
+//         "<li id='item2' class='list1Items'>Item 2</li>" +
+//         "<li id='item3' class='list1Items'>Item 3</li>");
+// 	});
+// })
+
+//interactive bg 
+
+$(".bg").interactive_bg({
+   strength: 25,
+   scale: 1.05,
+   animationSpeed: "100ms",
+   contain: true,
+   wrapContent: false
+
+
+$(document).ready(function(){
+
+    $(".bg").interactive_bg(); // function call
+    });
+
+  // change background size on window resize
+  $(window).resize(function() {
+      $(".bg > .ibg-bg").css({
+        width: $(window).outerWidth(),
+        height: $(window).outerHeight()
+
+});
+
+
+
+
+//click and change images
+// function changeImage() {
+
+//         if (document.getElementById("imgClickAndChange").src == "images/gp-17") 
+//         {
+//             document.getElementById("imgClickAndChange").src = "images/gp-27";
+//         }
+//         else 
+//         {
+//             document.getElementById("imgClickAndChange").src = "";
+//         }
+//     }
+
+
+//   });
 //create click "zones" here
 
 
