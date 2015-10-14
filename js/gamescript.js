@@ -1,96 +1,34 @@
-document.addEventListener('DOMContentLoaded', function() {
-	console.log('Voila!')
+// document.addEventListener('DOMContentLoaded', function() {
+// 	console.log('Voila!')
+// });
+
+$(document).ready(function(){
+
+
+    $('#ci').chooseIt();;
+
+
+    $(".bg").interactive_bg(); // function call
+
+    $('p').typewriter();
+
+
 });
 
-var GameObjects = new Array('', "notepad", "camera", "key", "graffiti");
 
+  // change background size on window resize
+// $(window).resize(function() {
+//     $(".bg > .ibg-bg").css({
+//         width: $(window).outerWidth(),
+//         height: $(window).outerHeight()
+//       })
+//     })
 
-//pages for choose your own adventure
-var current_page = 0;
-$(document).ready(function () {
-    load_page(0);
-    $('#response').on('click', '.choice', function () {
-        var target = $(this).data('target');
-        load_page(target);
-    });
-});
-
-//choose your own adventure script
-function load_page(id) {
-    // Fetch JSON for page data associated with given ID
-    var page_data = PAGES[id];
-
-    clear_page();
-    set_page_text(page_data.text);
-    if (page_data.type === 'choice') {
-        for (var choice in page_data.choices) {
-            var choice_data = page_data.choices[choice];
-            add_choice(choice_data.text, choice_data.target);
-
-        }
-    }
-}
-
-
-
-
-function set_page_text(text) {
-    $("#page_text").append("<p>" + text + "</p>");
-}
-
-function add_choice(text, target) {
-    $("#response").append("<button class=choice data-target=" + target + ">" + text + "</button>");
-}
-
-function clear_page() {
-    $("#page_text").empty();
-    $("#response").empty();
-}
-
-// Page data
-var PAGES = [{
-    'text': 'You approach an abandoned warehouse. Which entrance do you take?',
-        'type': 'choice',
-        'choices': [{
-        'text': 'Side door.',
-            'target': 1
-    }, {
-        'text': 'Back sliding garage door.',
-            'target': 2
-    }, {
-        'text': 'Next step.',
-            'target': 3
-    }, {
-        'text': 'Next step.',
-            'target': 4
-    }]
-}, {
-    'text': 'Next step.',
-        'type': 'choice',
-        'choices': [{
-        'text': 'Result',
-            'target': 0
-    }]
-}, {
-    'text': 'Next step.',
-        'type': 'choice',
-        'choices': [{
-        'text': 'Result',
-            'target': 0
-    }]
-}, {
-    'text': 'Next step.',
-        'type': 'choice',
-        'choices': [{
-        'text': 'Result',
-            'target': 0
-    }]
-}, {
-    'text': 'Next step.',
-        'type': 'choice',
-        'choices': [{
-        'text': 'Result',
-            'target': 0
-    }]
-}];
-
+// var GameObjects = new Array('', "notepad", "camera", "key", "graffiti");
+// $(".bg").interactive_bg({
+//     strength: 25,              // Movement Strength when the cursor is moved. The higher, the faster it will reacts to your cursor. The default value is 25.
+//     scale: 1.05,               // The scale in which the background will be zoomed when hovering. Change this to 1 to stop scaling. The default value is 1.05.
+//     animationSpeed: "100ms",   // The time it takes for the scale to animate. This accepts CSS3 time function such as "100ms", "2.5s", etc. The default value is "100ms".
+//     contain: true,             // This option will prevent the scaled object/background from spilling out of its container. Keep this true for interactive background. Set it to false if you want to make an interactive object instead of a background. The default value is true.
+//     wrapContent: false         // This option let you choose whether you want everything inside to reacts to your cursor, or just the background. Toggle it to true to have every elements inside reacts the same way. The default value is false
+//  });

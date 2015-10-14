@@ -1,17 +1,3 @@
-/* ===========================================================
- * jquery-interactive_bg.js v1.0
- * ===========================================================
- * Copyright 2014 Pete Rojwongsuriya.
- * http://www.thepetedesign.com
- *
- * Create an interactive moving background
- * that reacts to viewer's cursor
- *
- * https://github.com/peachananr/interactive_bg
- * 
- * License: GPL v3
- *
- * ========================================================== */
 
 !function($){
   
