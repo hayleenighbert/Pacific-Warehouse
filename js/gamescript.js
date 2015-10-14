@@ -68,28 +68,28 @@ var PAGES = [{
     'text': 'Next step.',
         'type': 'choice',
         'choices': [{
-        'text': 'Yes. Ask me that again.',
+        'text': 'Result',
             'target': 0
     }]
 }, {
     'text': 'Next step.',
         'type': 'choice',
         'choices': [{
-        'text': 'Yes. Ask me that again.',
+        'text': 'Result',
             'target': 0
     }]
 }, {
     'text': 'Next step.',
         'type': 'choice',
         'choices': [{
-        'text': 'Yes. Ask me that again.',
+        'text': 'Result',
             'target': 0
     }]
 }, {
     'text': 'Next step.',
         'type': 'choice',
         'choices': [{
-        'text': 'Good. Ask me that again.',
+        'text': 'Result',
             'target': 0
     }]
 }];
