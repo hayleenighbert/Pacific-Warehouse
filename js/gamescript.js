@@ -8,7 +8,7 @@ $('.item').on('click', function () {
     // do things to add item to inventory.
     count++;
     if (count == 3) {
-        alert('You win!');
+        alert('You win! You have collected all the necessary clues to find out more about your warehouse adventure. Continue on to the next slide for your fate..');
     }
 
 
