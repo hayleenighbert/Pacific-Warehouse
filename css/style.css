@@ -1,6 +1,6 @@
 body {
 	color: #000;
-	background-color: #fff;
+	background-color: #554e44;
 	font-size: 36px;
 	font-family: Helvetica;
 }
@@ -72,12 +72,9 @@ h1 {
 }
 
 
-/*@media () {
-
-}*/
 
 
-aside {
+/*aside {
     float: right;
     margin: 10px;
     width: 200px;
@@ -106,7 +103,7 @@ aside {
 
   	height: 140px; 
 }
-
+*/
 
 /*!!!CSS for later!!*/
 
