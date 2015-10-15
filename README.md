@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Pacific Warehouse
 Project 1
 
@@ -24,3 +25,7 @@ I'm also working on a draggable/droppable option for the items so you can snap t
 ##Future Fixes
 
 There may be some issues if the game is viewed on different browsers with the interactive background API, so this is also something I need to find a solution for.
+=======
+# my-game
+Project 1
+>>>>>>> master
