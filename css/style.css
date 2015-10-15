@@ -1,6 +1,6 @@
 body {
 	color: #000;
-	background-color: #000000;
+	background-color: #fff;
 	font-size: 36px;
 	font-family: Helvetica;
 }
@@ -83,7 +83,13 @@ aside {
     width: 200px;
 }
 
-/*.draggable { 
+#draggable6 {
+	width: 50px;
+	height: 50px;
+	/*background-image:url(images/item_compass.png);*/
+}
+
+.draggable { 
 	width: 90px;
 	height: 80px;
 	padding: 5px;
@@ -100,7 +106,7 @@ aside {
 
   	height: 140px; 
 }
-*/
+
 
 /*!!!CSS for later!!*/
 
