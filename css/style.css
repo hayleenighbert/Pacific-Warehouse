@@ -82,6 +82,17 @@ h1 {
 
 }
 
+.item {
+	border:1px solid black;
+	color:#fff;
+	cursor:pointer;
+	font-size:14px;
+	max-width:40%;
+	padding:5px 5px
+
+
+}
+
 /*#itembutton {
 
   border:1px solid black;
