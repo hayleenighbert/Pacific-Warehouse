@@ -1,13 +1,7 @@
 body {
-<<<<<<< HEAD
 	color: #000;
 	background-color: #554e44;
 	font-size: 36px;
-=======
-	background-image: url();
-	color: #000;
-	font-size: 18px;
->>>>>>> master
 	font-family: Helvetica;
 }
 
@@ -15,7 +9,6 @@ a, a:visited, a:active {
 	color: #00000;
 }
 
-<<<<<<< HEAD
 p {
 	font-family: 'Special Elite', cursive;
 	font-size: 20px;
@@ -28,14 +21,10 @@ h1 {
 	font-family: helvetica;
 }
 
-=======
->>>>>>> master
 a:hover {
 	text-decoration: underline;
 	opacity: .5;
 }
-
-<<<<<<< HEAD
 
 h1 {
     font: italic normal 1.4em georgia, sans-serif;
@@ -264,157 +253,3 @@ h1 {
 /*.ibg-bg {
 	width: 100%;
 }*/
-=======
-#inventorycontainer {
-	margin-top: 2%;
-	margin-right: auto;
-	margin-left: auto;
-	min-height: 660px;
-	min-width: 1250px;
-	max-width: 1875px;
-	max-height: 990px;
-	text-align: center;
-}
-
-#inventory {
-	overflow: hidden;
-	margin-top: 0;
-	margin-right: auto;
-	margin-left: auto;
-	width: 1250px;
-	height: 120px;
-	background-color: #fff;
-	background-image: url();
-	box-shadow: 0 2px 5px #000;
-}
-
-.container {
-    width: 50%;
-    height: auto;
-}
-
-.inventory {
-	float: left;
-	margin-top: 10px;
-	margin-left: 27px;
-	width: 1000px;
-	height: 100px;
-	background-image: url();
-	text-align: center;
-}
-
-.item {
-	position: relative;
-	z-index: 15;
-	margin-right: auto;
-	margin-left: auto;
-	width: 100px;
-	height: 100px;
-	opacity: 1;
-	cursor: w-resize;
-}
-
-#draggable { 
-	width: 800px;
-	height: ;
-	padding: 0.5em;
-	float:left;
-	margin-top: 10px;
-	margin-left: 25px;
-	width: 0;
-	height: 100px;
-	border-radius: 50px;
-	background-color: #000;
-	opacity: 0;
-}
-
-#item1 {
-	background-image:url();
-}
-
-#item2 {
-	background-image:url();
-}
-
-#item3 {
-	background-image:url();
-}
-
-#item4 {
-	background-image:url();
-}
-
-#item5 {
-	background-image:url();
-}
-
-
-#item6 {
-	background-image:url();
-}
-
-#inside {
-	float:left;
-	margin-top: 10px;
-	margin-left: 25px;
-	width: 0;
-	height: 100px;
-	border-radius: 50px;
-	background-color: #000;
-	opacity: 0;
-}
-
-#content {
-	z-index: 0;
-	overflow: hidden;
-	margin-right: auto;
-	margin-left: auto;
-	width: 1250px;
-	height: 540px;
-	background-image: url();
-	box-shadow: 0 7px 16px rgba(0,0,0,.6);
-	text-align: center;
-}
-
-
-/*for inventory belt*/
-
-/*#droppable {
-	position: absolute;
-	z-index: 50;
-	overflow: visible;
-	width: inherit;
-	height: 100px;
-	background-image: url();
-	opacity: .8;
-}*/
-
-/*.drop {
-	position: absolute;
-	z-index: 51;
-	width: inherit;
-	height: inherit;
-	border-radius: 50px;
-}*/
-
-/**Extra stuff**/
-
-/*.toggleBox {
-    position: absolute;
-    top: 250px;
-    left: 250px;
-    padding: 15px;;
-    border: none;
-}*/
-
-/*.invisible {
-    visibility: hidden;
-    position: absolute;
-    top: -9999px;
-}
-
-.visible {
-    visibility: visible;
-    position: static;
-}*/
->>>>>>> master
