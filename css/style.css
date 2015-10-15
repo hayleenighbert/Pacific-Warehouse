@@ -12,6 +12,7 @@ a, a:visited, a:active {
 p {
 	font-family: 'Special Elite', cursive;
 	font-size: 20px;
+  line-height: 30px;
 
 }
 
@@ -71,6 +72,16 @@ h1 {
 	clear:both
 }
 
+.button {
+
+	border:1px solid black;
+	color:#fff;
+	cursor:pointer;
+	font-size:14px;
+	max-width:40%;
+	padding:5px 5px
+
+}
 
 
 
@@ -83,10 +94,10 @@ h1 {
 #draggable6 {
 	width: 50px;
 	height: 50px;
-	/*background-image:url(images/item_compass.png);*/
+	/*background-image:url(images/item_compass.png);
 }
 
-.draggable { 
+/*.draggable { 
 	width: 90px;
 	height: 80px;
 	padding: 5px;
@@ -102,8 +113,7 @@ h1 {
  #snaptarget {
 
   	height: 140px; 
-}
-*/
+}*/
 
 /*!!!CSS for later!!*/
 
