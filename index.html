@@ -44,13 +44,12 @@
     <p>You’ve heard stories about an abandoned warehouse at the waterfront in your town. It’s narrow structure towers over nearby buildings, nearly all the windows broken and walls eroded from years and years of exposure to the ocean’s salty air. You are tempted to approach, but hesitate when you see a “no trespassing” sign.</p>
 
 
+
 <!--       <div id="screen">
       <img src="images/item_compass.png" class="drag-image" id="draggable"/>
     </div> -->
 
-    <button class="button" onClick="click">[Collect Compass]</button>
-
-    <button class="ci-nav" path="slide-2">Walk into the building...</button>
+    <button class="ci-nav" path="slide-2">Walk toward the building anyway...</button>
     <!-- <button class="ci-nav" path="slide-4">Trigger slide 4...</button> -->
     </div>
 
@@ -85,9 +84,9 @@
     
     <div class = "bg" data-ibg-bg="images/gp-12.jpg"></div>
 
-      <p></p>
+      <p>Your footsteps echo within the cavernous walls of the warehouse. You look around, but there is no one around...that you can see.</p>
 
-      <button class="ci-nav" path="slide-6">Continue walking</button>
+      <button class="ci-nav" path="slide-6">Continue Walking</button>
 
 
 </div>
@@ -100,8 +99,8 @@
 
       <p>You suddenly feel the ground rumble. Adrenaline kicks in. What could that be? The shaking suddenly stops, and you hear a loud sound in the other room.</p>
 
-    <button class="ci-nav" path="slide-7">I'm staying in this room, I'm not risking it.</button>
-    <button class="ci-nav" path="slide-11">I'm curious what's in the other room.</button>
+    <button class="ci-nav" path="slide-7">Continue exploring room</button>
+    <button class="ci-nav" path="slide-11">"I'm curious what's in the other room..."</button>
 
 </div>
 
@@ -123,7 +122,7 @@
 
       <p>Ooo... there's something shiny on the floor.</p>
     
-    <button class="button" onclick="">[Collect Compass]</button>
+    <button id="item">[Collect Compass]</button>
 
     <button class="ci-nav" path="slide-6">Walk back up stairs</button>
 
@@ -149,8 +148,7 @@
 
       <p>There's a lot of junk in here. What's with all these old lockers?</p>
     
-    <button id="button" alert="You found a notebook!">[Collect Notebook]
-      </button>
+    <button id="item">[Collect Notebook]</button>
 
     <button class="ci-nav" path="slide-11">Walk into next room</button>
 
@@ -161,10 +159,9 @@
     
         <div class = "bg" data-ibg-bg="images/gp-3.jpg"></div>
 
-      <p>You enter a room full of debris and graffiti scrawled across the walls.<br>
-      "What was this place used for, anyway...?"</p>
+      <p>The lights above start swinging back and forth and the floor shakes, scattering broken glass and objects across the floor. The shaking suddenly stops, and you hear a loud sound in the other room.</p>
     
-    <button class="ci-nav" path="slide-12">Take a closer look at the walls</button>
+    <button class="ci-nav" path="slide-12">Check out next room</button>
 
     <!-- <button class="ci-nav" path="slide-14">Move on to the next room</button> -->
 
@@ -174,18 +171,50 @@
     
         <div class = "bg" data-ibg-bg="images/gp-4.jpg"></div>
 
-      <p>The lights above start swinging back and forth and the floor shakes, scattering broken glass and objects across the floor. The shaking suddenly stops, and you hear a loud sound in the other room.</p>
-    
-    <button id="button" alert="You found a spraypaint can!">[Collect Spraypaint]
-      </button>
-    <button class="ci-nav" path="slide-1">Run!!</button>
+      <p>You enter a room full of debris and graffiti scrawled across the walls.<br>
+      "What was this place used for, anyway...?"</p>
 
+    
+    <button id="item">[Collect Spraypaint Can]</button>
+
+
+    
     <button class="ci-nav" path="slide-14">Go toward strange sound</button>
+    <!-- <button class="ci-nav" path="slide-13">Inspect walls</button> -->
+
+</div>
+
+   <!-- <div id="slide-12" class="ci-slide">
+    
+      <div class = "bg" data-ibg-bg="images/gp-4.jpg"></div>
+
+      <p>You enter a room full of debris and graffiti scrawled across the walls.<br>
+      "What was this place used for, anyway...?"</p>
+
+    
+    <button id="item">[Collect Spraypaint Can]</button>
+
+
+    
+    <button class="ci-nav" path="slide-14">Go toward strange sound</button>
+    <button class="ci-nav" path="slide-13">Inspect walls</button>
+
+</div> -->
+
+   <div id="slide-14" class="ci-slide">
+    
+        <div class = "bg" data-ibg-bg="images/gp.jpg"></div>
+
+      <p>You enter and scan the room for any signs of danger. Looks like a room full of old wires and circuit boards. But wait...I see something shiny! Looks like a dangerously sharp object.</p>
+    
+    <button id="button">[Collect Dagger]</button>
+
+    <button class="ci-nav" path="slide-12">Go back to the last room</button>
 
 </div>
 
 
-   <div id="slide-14" class="ci-slide">
+   <!-- <div id="slide-14" class="ci-slide">
     
         <div class = "bg" data-ibg-bg="images/gp.jpg"></div>
 
@@ -196,21 +225,7 @@
 
     <button class="ci-nav" path="slide-12">Go back to the last room</button>
 
-</div>
-
-
-   <div id="slide-14" class="ci-slide">
-    
-        <div class = "bg" data-ibg-bg="images/gp.jpg"></div>
-
-      <p>You enter and scan the room for any signs of danger. Looks like a room full of old wires and circuit boards. But wait...I see something shiny! Looks like a dangerously sharp object. Yay!</p>
-    
-    <button id="button" alert="You found a dagger!">[Collect Dagger]
-      </button>
-
-    <button class="ci-nav" path="slide-12">Go back to the last room</button>
-
-</div>
+</div> -->
 
 
 <!-- <div id="container">

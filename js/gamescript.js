@@ -5,7 +5,8 @@ $(document).ready(function(){
 
 
 var count = 0;
-$('#button').on('click', function () {
+$('#item').on('click', function () {
+    console.log(count); //
     // do things to add item to inventory.
     count++;
     if (count == 3) {
@@ -27,6 +28,10 @@ $('#button').on('click', function () {
 
 });
 
+// document.querySelector('button#test-4').onclick = function(){
+//     swal("Oops...", "Something went wrong!", "error");
+// };
+
 
   // change background size on window resize
 $(window).resize(function() {
@@ -35,6 +40,7 @@ $(window).resize(function() {
         height: $(window).outerHeight()
       });
     });
+
 
 
 
