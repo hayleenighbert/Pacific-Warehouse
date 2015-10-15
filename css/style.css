@@ -1,6 +1,6 @@
 body {
-	background-image: url();
 	color: #000;
+	background-color: #000000;
 	font-size: 36px;
 	font-family: Helvetica;
 }
@@ -10,6 +10,8 @@ a, a:visited, a:active {
 }
 
 p {
+	font-family: 'Special Elite', cursive;
+	font-size: 20px;
 
 }
 
@@ -23,8 +25,175 @@ a:hover {
 	opacity: .5;
 }
 
-#home { 
-  background: url() 50% 0 repeat fixed; min-height: 1000px; 
+
+h1 {
+    font: italic normal 1.4em georgia, sans-serif;
+    letter-spacing: 1px;
+    color: #7D775C;
+}
+
+
+.bg {
+	height: 500px;
+	width: 1200px;
+	margin: 0 auto;
+}
+
+#ci {
+	background:#eee;
+	padding:20px 30px
+}
+
+#ci .ci-slide {
+	display:none;
+	text-align:center
+}
+
+#ci .ci-nav {
+	background:grey;
+	border:1px solid black;
+	color:#fff;
+	cursor:pointer;
+	font-size:14px;
+	max-width:40%;
+	padding:5px 5px
+}
+
+#ci .left {
+	float:left
+}
+
+#ci .right {
+	float:right
+}
+
+#ci .clear {
+	clear:both
+}
+
+
+/*@media () {
+
+}*/
+
+
+aside {
+    float: right;
+    margin: 10px;
+    width: 200px;
+}
+
+/*.draggable { 
+	width: 90px;
+	height: 80px;
+	padding: 5px;
+	float: left;
+	margin: 0 10px 10px 0;
+	font-size: .9em; 
+}
+ .ui-widget-header p, .ui-widget-content p {
+
+   margin: 0; 
+}
+
+ #snaptarget {
+
+  	height: 140px; 
+}
+*/
+
+/*!!!CSS for later!!*/
+
+/*button {
+    font-family: 'Special Elite', cursive;
+	font-size: 20px;
+    letter-spacing: 1px;
+    color: #000000;
+}*/
+
+
+
+/*.sample-show-hide {
+    -webkit-transition:all linear 0.5s;
+    transition:all linear 0.5s;
+}
+
+.sample-show-hide.ng-hide {
+    opacity:0;
+}*/
+
+
+
+/*
+.interactive_bg {
+	strength: 25;
+	scale: 1.05;
+	animationSpeed: ;
+}*/
+
+
+
+/*//Future Parallax CSS*/
+
+/*#splash {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #000000;
+}
+
+.footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:60px;
+}
+
+.footer2 {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:30px;
+    background:#6cf;
+}
+
+.container {
+    width: 660px;
+}
+
+/*section {
+    float: left;
+    margin: 10px;
+    width: 420px;
+}
+*/
+
+
+/*.parallax {
+  perspective: 1px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.parallax__layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.parallax__layer--base {
+  transform: translateZ(0);
+}
+.parallax__layer--back {
+  transform: translateZ(-1px);
+}*/
+
+/*//Paralax*/
+/*#home { 
+  background: url(/images/gp-panorama.jpg) 50% 0 repeat fixed; min-height: 1000px; 
   height: 1000px; 
   margin: 0 auto; 
   width: 100%; 
@@ -57,114 +226,7 @@ a:hover {
   text-align: center; 
   top: 150px; 
   width: 100%; 
-}
-
-h1 {
-    font: italic normal 1.4em georgia, sans-serif;
-    letter-spacing: 1px;
-    color: #7D775C;
-}
-
-button {
-    font: italic normal 0.8em georgia, sans-serif;
-    letter-spacing: 1px;
-    color: #7D775C;
-}
-
-.footer {
-    position:absolute;
-    bottom:0;
-    width:100%;
-    height:60px;
-}
-
-.footer2 {
-    position:absolute;
-    bottom:0;
-    width:100%;
-    height:30px;
-    background:#6cf;
-}
-
-.container {
-    width: 660px;
-}
-
-section {
-    float: left;
-    margin: 10px;
-    width: 420px;
-}
-
-aside {
-    float: right;
-    margin: 10px;
-    width: 200px;
-}
-
-.sample-show-hide {
-    -webkit-transition:all linear 0.5s;
-    transition:all linear 0.5s;
-}
-
-.sample-show-hide.ng-hide {
-    opacity:0;
-}
-
-#ci {
-	background:#eee;
-	padding:20px 30px
-}
-
-#ci .ci-slide {
-	display:none;
-	text-align:center
-}
-
-#ci .ci-nav {
-	background:#0f75bc;
-	border:none;
-	color:#fff;
-	cursor:pointer;
-	font-size:1.2em;
-	max-width:40%;
-	padding:10px 15px
-}
-
-#ci .left {
-	float:left
-}
-
-#ci .right {
-	float:right
-}
-
-#ci .clear {
-	clear:both
-}
-
-.bg {
-	height: 600px;
+}*/
+/*.ibg-bg {
 	width: 100%;
-
-}
-
-/*.parallax {
-  perspective: 1px;
-  height: 100vh;
-  overflow-x: hidden;
-  overflow-y: auto;
-}
-.parallax__layer {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
-.parallax__layer--base {
-  transform: translateZ(0);
-}
-.parallax__layer--back {
-  transform: translateZ(-1px);
 }*/

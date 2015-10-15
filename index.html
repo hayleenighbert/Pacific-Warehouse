@@ -19,7 +19,11 @@
 
   <script type= "text/javascript" src= "js/choose-it.js"></script>
 
-  <script src="js/jquery.typewriter.js"></script>
+<!--   // <script src="js/jquery.typewriter.js"></script> -->
+
+  <link href='https://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" type="text/css" href="chooseit.css">
 
 	<link rel= "stylesheet" type= "text/css" href= "css/style.css">
 
@@ -35,18 +39,18 @@
 
   <div id="slide-1" class="ci-slide">
 
-    <div class = "bg" data-ibg-bg="images/gp-17.jpg"></div>
+    <div class = "bg" data-ibg-bg="images/gp_slide1.jpg"></div>
 
-    <p>You’ve heard stories about an abandoned warehouse at the waterfront in your town. It’s narrow structure towers over nearby buildings, nearly all the windows broken and walls eroded from years and years of exposure to the ocean’s salty air. You are tempted to approach and see a “no trespassing” sign.</p>
+    <p>You’ve heard stories about an abandoned warehouse at the waterfront in your town. It’s narrow structure towers over nearby buildings, nearly all the windows broken and walls eroded from years and years of exposure to the ocean’s salty air. You are tempted to approach, but hesitate when you see a “no trespassing” sign.</p>
 
-    <button class="ci-nav" path="slide-2">Continue</button>
+    <button class="ci-nav" path="slide-2">Walk into the building...</button>
     <!-- <button class="ci-nav" path="slide-4">Trigger slide 4...</button> -->
-  </div>
+    </div>
 
 
   <div id="slide-2" class='ci-slide'>
     
-    <div class = "bg" data-ibg-bg="images/gp.jpg"></div>
+    <div class = "bg" data-ibg-bg="images/gp_slide2.jpg"></div>
 
       <p>As you approach the side door of the building, you see a truck pull up to the side door.</p>
 
@@ -54,84 +58,78 @@
       
       <button class="ci-nav" path="slide-3">Continue walking</button>
 
+
   </div>
 
   <div id="slide-3" class="ci-slide">
     
-    <div class = "bg" data-ibg-bg="images/gp-14.jpg"></div>
+    <div class = "bg" data-ibg-bg="images/gp.jpg"></div>
 
-      <h4>Suddenly, someone comes up behind you and grabs you.</h4>
+      <p>Suddenly, someone comes up behind you and grabs you.</p>
       
       <button class="ci-nav" path="slide-1">Play again?</button>
 
-  </div>
-
-<!-- <div id="slide-5" class="ci-slide">
-    You suddenly feel the ground rumble. Adrenaline kicks in. What could that be? The lights above start swinging back and forth and the floor shakes, scattering broken glass and objects across the floor. The shaking suddenly stops, and you hear a loud sound in the other room.<br />
-    <button class="ci-nav" path="slide-1">Play again?</button><br />
-    <button class="ci-nav" path="slide-3">Move to slide 3...</button>
-  </div> -->
 
 </div>
 
+  <div id="slide-5" class="ci-slide">
+    
+    <div class = "bg" data-ibg-bg="images/gp-14.jpg"></div>
+
+      <p>You suddenly feel the ground rumble. Adrenaline kicks in. What could that be? The lights above start swinging back and forth and the floor shakes, scattering broken glass and objects across the floor. The shaking suddenly stops, and you hear a loud sound in the other room.<br>
+      <center></center>
+
+    </p>
+
+    <button class="ci-nav" path="slide-1">Play again?</button>
+    <button class="ci-nav" path="slide-3">Move to slide 3...</button>
 
 
-<!-- // Inventory belt idea --> 
-<!-- <div id= "inventorybelt">
-<div id= "draggable" class= "ui-widget-content"> -->
+    <div id="slide-5" class="ci-slide">
+    
+        <div class = "bg" data-ibg-bg="images/gp-14.jpg"></div>
 
-    <!-- <div class= "drop" id= "item1">
-                	item1
-                </div>
+      <p>You suddenly feel the ground rumble. Adrenaline kicks in. What could that be? The lights above start swinging back and forth and the floor shakes, scattering broken glass and objects across the floor. The shaking suddenly stops, and you hear a loud sound in the other room.<br>
+    
+    </p>
 
-    <div class= "drop" id= "item2">
-                	item2
-                </div>
+    <button class="ci-nav" path="slide-1">Play again?</button>
+    <button class="ci-nav" path="slide-3">Move to slide 3...</button>
+  
+  </div>
 
-    <div class= "drop" id= "item3">
-                	item3
-                </div>
+</div>
 
-    <div class= "drop" id= "item4">
-                	item4
-                </div>
+</div>
 
-    <div class= "drop" id= "item5">
-                	item5
-                </div>
-
-    <div class= "drop" id= "item6">
-                	item6
-
-                </div>
-            </div> -->
-
-<!-- //inventory "slots"
-
-    <div class= "inventory" id= "slot1"></div>
-
-    <div class= "inventory" id= "slot2"></div>
-
-    <div class= "inventory" id= "slot3"></div>
-
-    <div class= "inventory" id= "slot4"></div>
-
-    <div class= "inventory" id= "slot5"></div>
-
-            <div class= "inventory" id= "slot6"></div> -->
 <!-- 
- 		<div id= "selector" class= "off">
 
-                <div id= "selectortext" class= "textbox"> -->
-                    <!-- //Inventory -->
-<!-- 
-                </div>
-
-    </div>
-
+<div id="snaptarget" class="ui-widget-header">
+  <p>I'm a snap target</p>
+</div>
+ 
+<br style="clear:both">
+ 
+<div id="draggable" class="draggable ui-widget-content">
+  <p>Default (snap: true), snaps to all other draggable elements</p>
+</div>
+ 
+<div id="draggable2" class="draggable ui-widget-content">
+  <p>I only snap to the big box</p>
+</div>
+ 
+<div id="draggable3" class="draggable ui-widget-content">
+  <p>I only snap to the outer edges of the big box</p>
+</div>
+ 
+<div id="draggable4" class="draggable ui-widget-content">
+  <p>I snap to a 20 x 20 grid</p>
+</div>
+ 
+<div id="draggable5" class="draggable ui-widget-content">
+  <p>I snap to a 80 x 80 grid</p>
 </div> -->
-
-
+ 
 
 
 
