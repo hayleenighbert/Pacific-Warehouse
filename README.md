@@ -9,8 +9,7 @@ The game starts when the player sees someone walk into an abandoned warehouse. Y
 
 ##Functionality
 
-The various options are built with jQuery and I wrote code that enables you to "win" if you gather three items in your inventory.
-
+The technologies used include Javascript as well as JQuery libraries for the slides and story progression.
 
 ##Expansion
 
