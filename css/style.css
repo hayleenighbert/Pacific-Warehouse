@@ -1,0 +1,266 @@
+body {
+	color: #000;
+	background-color: #554e44;
+	font-size: 36px;
+	font-family: Helvetica;
+}
+
+a, a:visited, a:active {
+	color: #00000;
+}
+
+p {
+	font-family: 'Special Elite', cursive;
+	font-size: 20px;
+  line-height: 30px;
+
+}
+
+h1 {
+	font-size: 36px;
+	font-family: helvetica;
+}
+
+a:hover {
+	text-decoration: underline;
+	opacity: .5;
+}
+
+h1 {
+    font: italic normal 1.4em georgia, sans-serif;
+    letter-spacing: 1px;
+    color: #7D775C;
+}
+
+
+.bg {
+	height: 600px;
+	width: 1200px;
+	margin: 0 auto;
+}
+
+#ci {
+	background:#eee;
+	padding:20px 30px
+}
+
+#ci .ci-slide {
+	display:none;
+	text-align:center
+}
+
+#ci .ci-nav {
+	background:grey;
+	border:1px solid black;
+	color:#fff;
+	cursor:pointer;
+	font-size:14px;
+	max-width:40%;
+	padding:5px 5px
+}
+
+#ci .left {
+	float:left
+}
+
+#ci .right {
+	float:right
+}
+
+#ci .clear {
+	clear:both
+}
+
+.button {
+
+	border:1px solid black;
+	color:#fff;
+	cursor:pointer;
+	font-size:14px;
+	max-width:40%;
+	padding:5px 5px
+
+}
+
+.item {
+	border:1px solid black;
+	color:#fff;
+	cursor:pointer;
+	font-size:14px;
+	max-width:40%;
+	padding:5px 5px
+
+
+}
+
+/*#itembutton {
+
+  border:1px solid black;
+  color:#fff;
+  cursor:pointer;
+  font-size:14px;
+  max-width:40%;
+  padding:5px 5px
+
+}*/
+
+
+
+/*aside {
+    float: right;
+    margin: 10px;
+    width: 200px;
+}
+
+#draggable6 {
+	width: 50px;
+	height: 50px;
+	/*background-image:url(images/item_compass.png);
+}
+
+/*.draggable { 
+	width: 90px;
+	height: 80px;
+	padding: 5px;
+	float: left;
+	margin: 0 10px 10px 0;
+	font-size: .9em; 
+}
+ .ui-widget-header p, .ui-widget-content p {
+
+   margin: 0; 
+}
+
+ #snaptarget {
+
+  	height: 140px; 
+}*/
+
+/*!!!CSS for later!!*/
+
+/*button {
+    font-family: 'Special Elite', cursive;
+	font-size: 20px;
+    letter-spacing: 1px;
+    color: #000000;
+}*/
+
+
+
+/*.sample-show-hide {
+    -webkit-transition:all linear 0.5s;
+    transition:all linear 0.5s;
+}
+
+.sample-show-hide.ng-hide {
+    opacity:0;
+}*/
+
+
+
+/*
+.interactive_bg {
+	strength: 25;
+	scale: 1.05;
+	animationSpeed: ;
+}*/
+
+
+
+/*//Future Parallax CSS*/
+
+/*#splash {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #000000;
+}
+
+.footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:60px;
+}
+
+.footer2 {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:30px;
+    background:#6cf;
+}
+
+.container {
+    width: 660px;
+}
+
+/*section {
+    float: left;
+    margin: 10px;
+    width: 420px;
+}
+*/
+
+
+/*.parallax {
+  perspective: 1px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.parallax__layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.parallax__layer--base {
+  transform: translateZ(0);
+}
+.parallax__layer--back {
+  transform: translateZ(-1px);
+}*/
+
+/*//Paralax*/
+/*#home { 
+  background: url(/images/gp-panorama.jpg) 50% 0 repeat fixed; min-height: 1000px; 
+  height: 1000px; 
+  margin: 0 auto; 
+  width: 100%; 
+  max-width: 1920px; 
+  position: relative; 
+}
+ 
+#home article { 
+  height: 458px; 
+  position: absolute; 
+  text-align: center;
+  top: 150px; 
+  width: 100%; 
+}
+ 
+#about { 
+  background: url(/images/gp-17.jpg) 50% 0 repeat fixed; min-height: 1000px; 
+  height: 1000px; 
+  margin: 0 auto; 
+  width: 100%; 
+  max-width: 1920px; 
+  position: relative; 
+  -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+ 
+#about article { 
+  height: 458px; 
+  position: absolute; 
+  text-align: center; 
+  top: 150px; 
+  width: 100%; 
+}*/
+/*.ibg-bg {
+	width: 100%;
+}*/
