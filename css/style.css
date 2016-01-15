@@ -50,7 +50,7 @@ h1 {
 }
 
 #ci .ci-nav {
-	background:grey;
+	background: grey;
 	border:1px solid black;
 	color:#fff;
 	cursor:pointer;
@@ -93,174 +93,58 @@ h1 {
 
 }
 
-/*#itembutton {
-
-  border:1px solid black;
-  color:#fff;
-  cursor:pointer;
-  font-size:14px;
-  max-width:40%;
-  padding:5px 5px
-
-}*/
-
-
-
-/*aside {
-    float: right;
-    margin: 10px;
-    width: 200px;
+.wrapper {
+    position: relative;
+    padding: 0;
+    width:100px;
+    display:block;
 }
-
-#draggable6 {
-	width: 50px;
-	height: 50px;
-	/*background-image:url(images/item_compass.png);
-}
-
-/*.draggable { 
-	width: 90px;
-	height: 80px;
-	padding: 5px;
-	float: left;
-	margin: 0 10px 10px 0;
-	font-size: .9em; 
-}
- .ui-widget-header p, .ui-widget-content p {
-
-   margin: 0; 
-}
-
- #snaptarget {
-
-  	height: 140px; 
-}*/
-
-/*!!!CSS for later!!*/
-
-/*button {
-    font-family: 'Special Elite', cursive;
-	font-size: 20px;
-    letter-spacing: 1px;
-    color: #000000;
-}*/
-
-
-
-/*.sample-show-hide {
-    -webkit-transition:all linear 0.5s;
-    transition:all linear 0.5s;
-}
-
-.sample-show-hide.ng-hide {
-    opacity:0;
-}*/
-
-
-
-/*
-.interactive_bg {
-	strength: 25;
-	scale: 1.05;
-	animationSpeed: ;
-}*/
-
-
-
-/*//Future Parallax CSS*/
-
-/*#splash {
+.text {
     position: absolute;
     top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background: #000000;
+    color:#f00;
+    background-color:rgba(255,255,255,0.8);
+    width: 100px;
+    height: 100px;
+    line-height:100px;
+    text-align: center;
+    z-index: 10;
+    opacity: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.text:hover {
+    opacity:1;
 }
 
-.footer {
-    position:absolute;
-    bottom:0;
-    width:100%;
-    height:60px;
+img {
+    z-index:1;
 }
 
-.footer2 {
-    position:absolute;
-    bottom:0;
-    width:100%;
-    height:30px;
-    background:#6cf;
+#ci {
+  background:#eee;
+  padding:20px 30px
 }
-
-.container {
-    width: 660px;
+#ci .ci-slide {
+  display:none;
+  text-align:center
 }
-
-/*section {
-    float: left;
-    margin: 10px;
-    width: 420px;
+#ci .ci-nav {
+  background:#0f75bc;
+  border:none;
+  color:#fff;
+  cursor:pointer;
+  font-size:1.2em;
+  max-width:40%;
+  padding:10px 15px
 }
-*/
-
-
-/*.parallax {
-  perspective: 1px;
-  height: 100vh;
-  overflow-x: hidden;
-  overflow-y: auto;
+#ci .left {
+  float:left
 }
-.parallax__layer {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+#ci .right {
+  float:right
 }
-.parallax__layer--base {
-  transform: translateZ(0);
-}
-.parallax__layer--back {
-  transform: translateZ(-1px);
-}*/
-
-/*//Paralax*/
-/*#home { 
-  background: url(/images/gp-panorama.jpg) 50% 0 repeat fixed; min-height: 1000px; 
-  height: 1000px; 
-  margin: 0 auto; 
-  width: 100%; 
-  max-width: 1920px; 
-  position: relative; 
-}
- 
-#home article { 
-  height: 458px; 
-  position: absolute; 
-  text-align: center;
-  top: 150px; 
-  width: 100%; 
-}
- 
-#about { 
-  background: url(/images/gp-17.jpg) 50% 0 repeat fixed; min-height: 1000px; 
-  height: 1000px; 
-  margin: 0 auto; 
-  width: 100%; 
-  max-width: 1920px; 
-  position: relative; 
-  -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
-  box-shadow: 0 0 50px rgba(0,0,0,0.8);
-}
- 
-#about article { 
-  height: 458px; 
-  position: absolute; 
-  text-align: center; 
-  top: 150px; 
-  width: 100%; 
-}*/
-/*.ibg-bg {
-	width: 100%;
-}*/
+#ci .clear {
+  clear:both}
