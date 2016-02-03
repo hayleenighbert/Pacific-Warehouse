@@ -12,8 +12,7 @@ a, a:visited, a:active {
 p {
 	font-family: 'Special Elite', cursive;
 	font-size: 20px;
-  line-height: 30px;
-
+ 	line-height: 30px;
 }
 
 h1 {
@@ -27,11 +26,11 @@ a:hover {
 }
 
 h1 {
-    font: italic normal 1.4em georgia, sans-serif;
-    letter-spacing: 1px;
-    color: #7D775C;
+  font: italic normal 1.4em georgia, sans-serif;
+  letter-spacing: 1px;
+  color: #7D775C;
+  vertical-align: center;
 }
-
 
 .bg {
 	height: 600px;
@@ -50,7 +49,7 @@ h1 {
 }
 
 #ci .ci-nav {
-	background: grey;
+	background: black;
 	border:1px solid black;
 	color:#fff;
 	cursor:pointer;
@@ -71,15 +70,12 @@ h1 {
 	clear:both
 }
 
-.button {
-
-	border:1px solid black;
+#ci .button {
 	color:#fff;
 	cursor:pointer;
 	font-size:14px;
 	max-width:40%;
-	padding:5px 5px
-
+	padding:5px 5px;
 }
 
 .item {
@@ -89,8 +85,6 @@ h1 {
 	font-size:14px;
 	max-width:40%;
 	padding:5px 5px
-
-
 }
 
 .wrapper {
@@ -99,6 +93,7 @@ h1 {
     width:100px;
     display:block;
 }
+
 .text {
     position: absolute;
     top: 0;
@@ -115,6 +110,7 @@ h1 {
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
 }
+
 .text:hover {
     opacity:1;
 }
@@ -127,10 +123,12 @@ img {
   background:#eee;
   padding:20px 30px
 }
+
 #ci .ci-slide {
   display:none;
   text-align:center
 }
+
 #ci .ci-nav {
   background:#0f75bc;
   border:none;
@@ -140,11 +138,14 @@ img {
   max-width:40%;
   padding:10px 15px
 }
+
 #ci .left {
   float:left
 }
+
 #ci .right {
   float:right
 }
+
 #ci .clear {
   clear:both}
