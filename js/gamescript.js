@@ -1,5 +1,12 @@
 $(document).ready(function(){
 
+var item = new Audio();
+item.src = 'item.mp3';
+function loadSound(num) {
+    item.play(); // play the sound
+    var divItem = document.getElementById("divItem");
+    divItem.innerHTML = "You have picked up a "+string;
+}
 
 var count = 0;
 $('.item').on('click', function () {
