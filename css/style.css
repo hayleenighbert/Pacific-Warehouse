@@ -13,11 +13,16 @@ p {
 	font-family: 'Special Elite', cursive;
 	font-size: 20px;
  	line-height: 30px;
+ 	padding: 5%;
 }
 
 h1 {
 	font-size: 36px;
 	font-family: helvetica;
+}
+
+img {
+    z-index:1;
 }
 
 a:hover {
@@ -30,52 +35,6 @@ h1 {
   letter-spacing: 1px;
   color: #7D775C;
   vertical-align: center;
-}
-
-.bg {
-	height: 600px;
-	width: 1200px;
-	margin: 0 auto;
-}
-
-#ci {
-	background:#eee;
-	padding:20px 30px
-}
-
-#ci .ci-slide {
-	display:none;
-	text-align:center
-}
-
-#ci .ci-nav {
-	background: black;
-	border:1px solid black;
-	color:#fff;
-	cursor:pointer;
-	font-size:14px;
-	max-width:40%;
-	padding:5px 5px
-}
-
-#ci .left {
-	float:left
-}
-
-#ci .right {
-	float:right
-}
-
-#ci .clear {
-	clear:both
-}
-
-#ci .button {
-	color:#fff;
-	cursor:pointer;
-	font-size:14px;
-	max-width:40%;
-	padding:5px 5px;
 }
 
 .item {
@@ -115,8 +74,15 @@ h1 {
     opacity:1;
 }
 
-img {
-    z-index:1;
+.bg {
+	height: 600px;
+	width: 1200px;
+	margin: 0 auto;
+
+}
+
+#introdiv {
+	color: white;
 }
 
 #ci {
@@ -150,27 +116,47 @@ img {
 #ci .clear {
   clear:both}
 
-  
-button, .button, input[type=submit] {
-  top:10%;
-  border: 0;
-  background: #5786c1;
-  color: white;
-  padding: 8px 14px;
-  font-weight: bold;
-  font-size: 18px;
-  text-decoration: none;
-  display: inline-block;
-  /* needed for anchors */
-  position: relative;
-  box-shadow: 1px 0px #3a587f, 0px 1px #4171ae, 2px 1px #3a587f, 1px 2px #4171ae, 3px 2px #3a587f, 2px 3px #4171ae, 4px 3px #3a587f, 3px 4px #4171ae, 5px 4px #3a587f, 4px 5px #4171ae, 6px 5px #3a587f, 5px 6px #4171ae;
+
+#ci {
+	background:#eee;
+	padding:20px 30px
+	position: absolute;
+    top: 0%; /* Header Height */
+    bottom: 0%; /* Footer Height */
+    width: 100%;
 }
-button:hover, button:focus, button.hover, button.focus, .button:hover, .button:focus, .button.hover, .button.focus, input[type=submit]:hover, input[type=submit]:focus, input[type=submit].hover, input[type=submit].focus {
-  transform: translate(2px, 2px);
-  color: white;
-  box-shadow: 1px 0px #3a587f, 0px 1px #4171ae, 2px 1px #3a587f, 1px 2px #4171ae, 3px 2px #3a587f, 2px 3px #4171ae, 4px 3px #3a587f, 3px 4px #4171ae;
+
+#ci .ci-slide {
+	display:none;
+	text-align:center
 }
-button:active, button.active, .button:active, .button.active, input[type=submit]:active, input[type=submit].active {
-  transform: translate(4px, 4px);
-  box-shadow: 1px 0px #3a587f, 0px 1px #4171ae, 2px 1px #3a587f, 1px 2px #4171ae;
+
+#ci .ci-nav {
+	background: black;
+	border:1px solid black;
+	color:#fff;
+	cursor:pointer;
+	font-size:14px;
+	max-width:40%;
+	padding:5px 5px
+}
+
+#ci .left {
+	float:left
+}
+
+#ci .right {
+	float:right
+}
+
+#ci .clear {
+	clear:both
+}
+
+#ci .button {
+	color:#fff;
+	cursor:pointer;
+	font-size:14px;
+	max-width:40%;
+	padding:5px 5px;
 }
