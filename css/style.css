@@ -86,15 +86,13 @@ h1 {
 	color: white;
 }
 
-#ci .ci-slide {
-  display: none;
-  text-align: center;
-	margin: auto 0;
+#ci {
+	background:#fff;
 
 }
 
 #ci .ci-nav {
-  background:#fff;
+  background:#000;
   border:none;
   color:#fff;
   cursor:pointer;
@@ -120,34 +118,9 @@ h1 {
 	margin: 0 auto;
 }
 
-
-#ci {
-	background:#fff;
-	padding:20px 30px;
-    width: 70%;
-	margin: 0 auto;
-
-}
-
 #ci .ci-slide {
 	display:none;
 	text-align:center;
 	vertical-align: center;
 	margin: auto 0
-}
-
-#ci .ci-nav {
-	background: black;
-	border:1px solid black;
-	color:#fff;
-	cursor:pointer;
-	font-size:14px;
-	max-width:40%;
-	padding:5px 5px
-}
-
-#ci .button {
-	color:#000;
-	font-size:14px;
-	max-width:40%;
 }
