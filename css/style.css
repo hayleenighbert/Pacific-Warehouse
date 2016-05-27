@@ -2,11 +2,12 @@ body {
 	color: #000;
 	background-color: #ffffff;
 	font-size: 36px;
-	font-family: Helvetica;
+	font-family: 'Special Elite', cursive;
 }
-
-navbar {
-	padding-bottom: 70px;
+.navbar-custom {
+    background-color:#000;
+    color:#ffffff;
+    border-radius:0;
 }
 
 a, a:visited, a:active {
@@ -21,12 +22,15 @@ p {
 }
 
 h1 {
-	font-size: 36px;
-	font-family: helvetica;
+	font-family: 'Special Elite', cursive;
+	letter-spacing: 1px;
+	color: #7D775C;
+	vertical-align: center;
 }
 
 img {
     z-index:1;
+		width: 50px;
 }
 
 a:hover {
@@ -34,12 +38,6 @@ a:hover {
 	opacity: .5;
 }
 
-h1 {
-  font: italic normal 1.4em georgia, sans-serif;
-  letter-spacing: 1px;
-  color: #7D775C;
-  vertical-align: center;
-}
 
 .item {
 	border:1px solid black;
@@ -88,7 +86,7 @@ h1 {
 
 #ci {
 	background:#fff;
-
+	padding-bottom: 30px;
 }
 
 #ci .ci-nav {
@@ -122,5 +120,10 @@ h1 {
 	display:none;
 	text-align:center;
 	vertical-align: center;
-	margin: auto 0
+	margin: auto 0;
+	height: 100%;
+}
+
+.navbar {
+	background-color: white;
 }
