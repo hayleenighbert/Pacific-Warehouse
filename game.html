@@ -9,6 +9,8 @@
   <link rel="stylesheet" type="text/css" href="chooseit.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css">
+  <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 </head>
 
@@ -20,17 +22,14 @@
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
           <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
+          <span class="icon-bar"><a class="navbar-brand" href="index.html">Start Again</a></span>
         </button>
-        <a class="navbar-brand" href="index.html">Start Again</a>
+        <a class="navbar-brand" href="game.html">Start Again</a>
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
-          <li class="active"><a href="index.html">Pacific Warehouse <span class="sr-only">(current)</span></a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
             <li role="presentation"><a href="https://github.com/hayleenighbert/Pacific-Warehouse" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a></li>
@@ -39,20 +38,20 @@
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
   </nav>
-
-<div id="ci">
-  <div id="slide-1" class="ci-slide">
-    <div class="bg" data-ibg-bg="images/gp_slide1.jpg"></div>
-      <p>You’ve heard stories about an abandoned warehouse at the waterfront in your town. It’s narrow structure towers over nearby buildings, nearly all the windows broken and walls eroded from years and years of exposure to the ocean’s salty air. You are tempted to approach, but hesitate when you see a “no trespassing” sign.</p>
+<div class="container img-responsive">
+  <div id="ci">
+    <div id="slide-1" class="ci-slide">
+      <div class="bg" data-ibg-bg="images/gp_slide1.jpg"></div>
+      <p>You’ve heard stories about an abandoned warehouse at the waterfront in your town. It’s narrow structure towers over nearby buildings, nearly all the windows broken and walls eroded from years and years of exposure to the ocean’s salty air. You see a “no trespassing” sign.</p>
       <button class="ci-nav" path="slide-2">Walk toward the building anyway...</button>
-  </div>
+    </div>
 
-  <div id="slide-2" class='ci-slide'>
-    <div class = "bg" data-ibg-bg="images/gp_slide2.jpg"></div>
-      <p>As you approach the side door of the building, you see a truck pull up to the side door. Someone exits the car, but you can't get a good look from far away. Maybe it's a man, maybe a woman? You can't tell. They walk briskly inside.</p>
+    <div id="slide-2" class='ci-slide'>
+      <div class = "bg" data-ibg-bg="images/gp_slide2.jpg"></div>
+      <p>As you approach the side door of the building, you see a truck pull up to the side door. Someone exits the car, but you can't get a good look from far away. They walk briskly inside.</p>
       <button class="ci-nav" path="slide-9">Follow through the front door.</button>
       <button class="ci-nav" path="slide-4">Sneak in through the garage back door.</button>
-  </div>
+    </div>
 
   <div id="slide-4" class='ci-slide'>
     <div class = "bg" data-ibg-bg="images/gp_slide1-2.jpg"></div>
@@ -82,6 +81,7 @@
   <div id="slide-8" class="ci-slide">
     <div class = "bg" data-ibg-bg="images/gp-14.jpg"></div>
       <p>There's something shiny on the floor</p>
+
       <button class="item">[Collect Compass]</button>
       <button class="ci-nav" path="slide-6">Walk back up stairs</button>
   </div>
@@ -130,14 +130,15 @@
       <button class="item">[Collect Dagger]</button><br>
       <button class="ci-nav" path="slide-12">Go back to the last room</button>
   </div>
+</div>
 
 
   <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
-  <script src="http://code.jquery.com/ui/1.8.21/jquery-ui.min.js"></script>
   <script type="text/javascript" src= "js/jquery.interactive_bg.js"></script>
   <script type="text/javascript" src="js/gamescript.js"></script>
   <script type="text/javascript" src="js/choose-it.js"></script>
   <script type="text/javascript" src="js/sweetalert.min.js"></script>
+  <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
 
  </body>
  </html>

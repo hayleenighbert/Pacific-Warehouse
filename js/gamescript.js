@@ -37,5 +37,9 @@ $(window).resize(function() {
     $(".bg > .ibg-bg").css({
         width: $(window).outerWidth(),
         height: $(window).outerHeight()
-      });
-    });
+  });
+});
+
+$(function() {
+    $( "#draggable" ).draggable();
+});
